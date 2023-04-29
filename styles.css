@@ -124,7 +124,8 @@ hr{
 
 .imagen1 {
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    box-shadow: 8px 8px 8px #078ab3;
 }
 
 .links {
