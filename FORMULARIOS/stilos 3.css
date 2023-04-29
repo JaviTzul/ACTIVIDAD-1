@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+    color: black;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: rgb(37, 55, 224);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/*navegacion*/
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand {
+    width: 50px;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 6px;
+}
+
+.nav-main ul a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.carreras {
+    display: flex;
+    justify-content: center;
+}
+
+.peritos ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.peritos h2{
+    filter: drop-shadow(8px 8px 4px #08daac);
+}
+
+.peritos ol{
+    text-align: left;
+}
